@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bầu Cua Game</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <h1>Bầu Cua Game</h1>
+    <div class="slot-machine">
+        <div class="slot" id="slot1"></div>
+        <div class="slot" id="slot2"></div>
+        <div class="slot" id="slot3"></div>
+    </div>
+    <div class="bet-options">
+        <div class="bet-option" data-animal="bau">
+            <img src="./image/bau.png" alt="Bầu" data-selected="false">
+            <div class="bet-score" id="score-bau">0</div>
+        </div>
+        <div class="bet-option" data-animal="cua">
+            <img src="./image/cua.png" alt="Cua" data-selected="false">
+            <div class="bet-score" id="score-cua">0</div>
+        </div>
+        <div class="bet-option" data-animal="tom">
+            <img src="./image/tom.png" alt="Tôm" data-selected="false">
+            <div class="bet-score" id="score-tom">0</div>
+        </div>
+        <div class="bet-option" data-animal="ca">
+            <img src="./image/ca.png" alt="Cá" data-selected="false">
+            <div class="bet-score" id="score-ca">0</div>
+        </div>
+        <div class="bet-option" data-animal="nai">
+            <img src="./image/nai.png" alt="Nai" data-selected="false">
+            <div class="bet-score" id="score-nai">0</div>
+        </div>
+        <div class="bet-option" data-animal="ga">
+            <img src="./image/ga.png" alt="Gà" data-selected="false">
+            <div class="bet-score" id="score-ga">0</div>
+        </div>
+    </div>
+    
+    </div>
+
+    <div class="controls">
+        <button id="spin">Quay</button>
+        <button id="reset">Đặt lại</button>
+    </div>
+    <div id="result"></div>
+
+
+</body>
+
+</html>

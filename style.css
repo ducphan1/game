@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fff;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.slot-machine {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.slot {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    border: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+
+img {
+    width: 60px;
+    height: 60px;
+}
+
+.slot img {
+    width: 60px;
+    height: 60px;
+}
+
+.bet-options {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.bet-option {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 0 10px;
+    border: 2px solid #333;
+}
+
+.bet-option img {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.bet-score {
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+#result {
+    font-size: 18px;
+    margin-top: 20px;
+    color: red;
+}
